@@ -24,7 +24,7 @@ Version|Date|Comments
 
 ## Prerequisites
 
-* Office 365 Developer tenant with a modern site collection
+* Office 365 Developer tenant with a modern site collection w/ atleast one hub site enabled
 
 ## Build options
 
