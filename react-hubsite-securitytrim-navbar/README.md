@@ -2,7 +2,7 @@
 
 ## Summary
 
-Application Customizer which uses the SharePoint Search API and new Hub site REST API to build out security trimmed navigation within hubsites.
+Application Customizer which uses the SharePoint Search API and new Hub site REST API to build out security trimmed navigation within hubsites. This application customizer will hide the default hub site navigation.
 
 ## Solution
 
