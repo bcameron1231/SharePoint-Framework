@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.0",
+    "libraryName": "react-hubsite-securitytrim-navbar",
+    "libraryId": "cad6c0c6-a601-4da5-8740-ea9972688503",
+    "environment": "spo"
+  }
+}

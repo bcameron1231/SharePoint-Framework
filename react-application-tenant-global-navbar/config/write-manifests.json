@@ -1,0 +1,4 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/write-manifests.schema.json",
+  "cdnBasePath": "https://bcameron.sharepoint.com/SPFx%20Source%20Code/Global%20Navigation/"
+}

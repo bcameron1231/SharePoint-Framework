@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "react-hubsite-navbar-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/reactHubsiteNavbar/ReactHubsiteNavbarApplicationCustomizer.js",
+          "manifest": "./src/extensions/reactHubsiteNavbar/ReactHubsiteNavbarApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReactHubsiteNavbarApplicationCustomizerStrings": "lib/extensions/reactHubsiteNavbar/loc/{locale}.js"
+  }
+}

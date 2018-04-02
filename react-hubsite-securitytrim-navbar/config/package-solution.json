@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-hubsite-securitytrim-navbar-client-side-solution",
+    "id": "cad6c0c6-a601-4da5-8740-ea9972688503",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/react-hubsite-securitytrim-navbar.sppkg"
+  }
+}
