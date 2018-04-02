@@ -48,7 +48,7 @@ In order to deploy to a real environment
   * `gulp bundle --ship`
   * `gulp package-solution --ship`
 * upload the content of the ./temp/deploy subfolder of the sample root folder into your CDN
-* add the react-hubsite-securitytrim-navbar.appkg to the "Apps for SharePoint" library of the AppCatalog in your tenant. You may find the .appkg file in the project rootfolder/sharepoint/solution 
+* add the reactHubsiteNavbar.appkg to the "Apps for SharePoint" library of the AppCatalog in your tenant. You may find the .appkg file in the project rootfolder/sharepoint/solution 
 
 ## Features
 
