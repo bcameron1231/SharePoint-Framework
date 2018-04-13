@@ -68,7 +68,7 @@ export class SPSearchService {
 
     }
     public async getHubID(hubURL: string): Promise<IHubSiteData> {
-        let url = this.siteURL + "/_api/HubSites?filter=SiteUrl eq '" + hubURL + "'";
+        let url = this.siteURL + "/_api/HubSites?$filter=SiteUrl eq '" + hubURL + "'";
         return this.spHttpClient.get(url, SPHttpClient.configurations.v1, {
             headers: {
                 'Accept': 'application/json;odata=nometadata',
