@@ -115,12 +115,6 @@ export class SPSearchService {
                         Navigation:[]
                     });
                 }
-                
-                //filter out root hub?
-                /*
-                if (site.Cells[5].Value != ID) {
-                    
-                }*/
             }
             return result;
         });
