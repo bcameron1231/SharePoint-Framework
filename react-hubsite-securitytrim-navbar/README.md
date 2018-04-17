@@ -17,6 +17,7 @@ react-hubsite-securitytrim-navbar|Beau Cameron (MVP, [@Beau__Cameron](https://tw
 Version|Date|Comments
 -------|----|--------
 1.0.0|April 1, 2018|Initial release
+2.0.0|April 17, 2018|v2 Pre-release
 
 ## Disclaimer
 
