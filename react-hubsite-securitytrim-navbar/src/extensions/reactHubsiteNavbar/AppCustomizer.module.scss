@@ -1,12 +1,14 @@
 div[class^="ms-HubNav"]{
-  display: none !important;
+  display: none;
 }
+
 .app {
+
     .top {
       height:40px;
       text-align:left;
       line-height:2.5;
-      font-weight:bold;
+      font-weight:normal;
       display: flex;
       align-items: left;
       justify-content: left;
@@ -16,7 +18,7 @@ div[class^="ms-HubNav"]{
       height:40px;
       text-align:center;
       line-height:2.5;
-      font-weight:bold;
+      font-weight:normal;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -31,5 +33,8 @@ div[class^="ms-HubNav"]{
       color: white;
       padding-left: 10px;
       padding-right: 10px;
+    }
+    .ms-CommandBarItem-commandText .itemCommandText{
+      font-weight:normal;
     }
   }

@@ -11,6 +11,7 @@ export interface IHubSiteData {
     ID: string;
     URL: string;
     Sites: IHubSiteData[];
+    Navigation:Navigation[];
 }
 export interface Navigation {
     Id: number;
@@ -67,8 +68,8 @@ export class SPSearchService {
         });
 
     }
-    public async getHubID(hubURL: string): Promise<IHubSiteData> {
-        let url = this.siteURL + "/_api/HubSites?filter=SiteUrl eq '" + hubURL + "'";
+    public async getHubID(hubsite:IAssociatedSite): Promise<IHubSiteData> {
+        let url = this.siteURL + "/_api/HubSites?$filter=SiteUrl eq '" + hubsite.url + "'";
         return this.spHttpClient.get(url, SPHttpClient.configurations.v1, {
             headers: {
                 'Accept': 'application/json;odata=nometadata',
@@ -78,21 +79,22 @@ export class SPSearchService {
             return response.json();
         }).then((responseJSON: IGetHubSiteData) => {
             let result: IHubSiteData = {
-                Title: "",
-                URL: "#",
+                Title: hubsite.name,
+                URL: hubsite.url,
                 ID: null,
-                Sites: []
+                Sites: [],
+                Navigation:hubsite.navigation
             };
             var responseItems = responseJSON.value
             if (responseItems.length > 0) {
-                result.ID = responseItems[0].ID
+                result.ID = responseItems[0].ID;
             }
             return result;
         });
 
     }
-    public async getSitesInHub(hubID: string): Promise<IHubSiteData[]> {
-        let url = this.siteURL + "/_api/search/query?querytext='DepartmentId:{" + hubID + "} contentclass:STS_Site'&selectproperties='Title,Path,DepartmentId,SiteId'";
+    public async getSitesInHub(ID:string): Promise<IHubSiteData[]> {
+        let url = this.siteURL + "/_api/search/query?querytext='DepartmentId:{" + ID + "} contentclass:STS_Site'&selectproperties='Title,Path,DepartmentId,SiteId'";
         return this.spHttpClient.get(url, SPHttpClient.configurations.v1, {
             headers: {
                 'Accept': 'application/json;odata=nometadata',
@@ -104,15 +106,21 @@ export class SPSearchService {
             let result: IHubSiteData[] = [];
             var responseItems = responseJSON.PrimaryQueryResult.RelevantResults.Table.Rows;
             for (let site of responseItems) {
-                //filter out hubsite root
-                if (site.Cells[5].Value != hubID) {
+                if (site.Cells[5].Value != ID) {
                     result.push({
                         ID: site.Cells[4].Value,
                         URL: site.Cells[3].Value,
                         Title: site.Cells[2].Value,
-                        Sites: []
+                        Sites: [],
+                        Navigation:[]
                     });
                 }
+                
+                //filter out root hub?
+                /*
+                if (site.Cells[5].Value != ID) {
+                    
+                }*/
             }
             return result;
         });

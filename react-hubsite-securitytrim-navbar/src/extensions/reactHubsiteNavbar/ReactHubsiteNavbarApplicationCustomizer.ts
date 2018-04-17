@@ -16,6 +16,7 @@ import * as SPSearchService from './services/SPSearchService';
 import HubNavBar from './components/HubNavBar';
 import { IHubNavBarProps } from './components/IHubNavBarProps';
 import { IAssociatedSite, IHubSiteData } from '../../../lib/extensions/reactHubsiteNavbar/services/SPSearchService';
+import SPPermission from '@microsoft/sp-page-context/lib/SPPermission';
 
 const LOG_SOURCE: string = 'ReactHubsiteNavbarApplicationCustomizer';
 
@@ -52,7 +53,8 @@ export default class ReactHubsiteNavbarApplicationCustomizer
 
     this._currentHubSiteData = await searchService.getHubSiteData().then((hubData: IAssociatedSite) => {
       if(hubData){
-        return searchService.getHubID(hubData.url).then((hub: IHubSiteData) => {
+        return searchService.getHubID(hubData).then((hub: IHubSiteData) => {
+          hub.Navigation = hubData.navigation;
           return hub;
         });
       }
@@ -60,6 +62,7 @@ export default class ReactHubsiteNavbarApplicationCustomizer
         return null;
       }
     });
+
     if (this._currentHubSiteData != null) {
       let cachedMenu = pnp.storage.session.get("HUBNAV_" + this._currentHubSiteData.ID);
       if (cachedMenu != null) {
@@ -67,7 +70,6 @@ export default class ReactHubsiteNavbarApplicationCustomizer
       }
       else {
         this._currentHubSiteData.Sites = await searchService.getSitesInHub(this._currentHubSiteData.ID);
-        this._currentHubSiteData.Title = this.properties.NavHeading;
         pnp.storage.session.put("HUBNAV_" + this._currentHubSiteData.ID, this._currentHubSiteData);
       }
 
@@ -92,11 +94,13 @@ export default class ReactHubsiteNavbarApplicationCustomizer
         return;
       }
 
-      if (this._currentHubSiteData != null && this._currentHubSiteData.Sites.length > 0) {
+      if (this._currentHubSiteData != null && this._currentHubSiteData.Sites.length > 0 || this._currentHubSiteData != null && this._currentHubSiteData.Navigation.length) {
         const element: React.ReactElement<IHubNavBarProps> = React.createElement(
           HubNavBar,
           {
             menuItem: this._currentHubSiteData,
+            navHeading:this.properties.NavHeading,
+            context:this.context
           }
         );
 
