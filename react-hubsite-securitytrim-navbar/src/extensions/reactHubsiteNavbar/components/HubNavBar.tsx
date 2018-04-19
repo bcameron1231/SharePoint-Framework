@@ -60,7 +60,7 @@ export default class HubNavBar extends React.Component<IHubNavBarProps, IHubNavB
        commandBarItems.push({ 
             key:"RootHub",
             name:this.props.menuItem.Title,    
-            itemType:ContextualMenuItemType.Header,
+            itemType:ContextualMenuItemType.Normal,
             href:this.props.menuItem.URL       
         });
 
