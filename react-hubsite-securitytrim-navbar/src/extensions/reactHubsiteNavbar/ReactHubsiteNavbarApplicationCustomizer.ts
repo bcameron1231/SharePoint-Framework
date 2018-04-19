@@ -94,7 +94,7 @@ export default class ReactHubsiteNavbarApplicationCustomizer
         return;
       }
 
-      if (this._currentHubSiteData != null && this._currentHubSiteData.Sites.length > 0 || this._currentHubSiteData != null && this._currentHubSiteData.Navigation.length) {
+      if (this._currentHubSiteData != null && this._currentHubSiteData.Sites.length > 0) {
         const element: React.ReactElement<IHubNavBarProps> = React.createElement(
           HubNavBar,
           {
