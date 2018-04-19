@@ -1,0 +1,115 @@
+2018-04-09T23:06:07.462Z - info:   [15824] *** FOLDER: c:\Users\BeauCameron\SPFx Code ***
+2018-04-09T23:06:07.462Z - info:   [15824] VSTSVSCode/1.133.0 (VSCode 1.19.2; Windows_NT 10.0.16299; Node 7.9.0)
+2018-04-09T23:06:07.462Z - debug:  [15824] Looking for an External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-09T23:06:07.463Z - debug:  [15824] No External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-09T23:06:07.465Z - debug:  [15824] Looking for TFVC repository at c:\Users\BeauCameron\SPFx Code
+2018-04-09T23:06:07.466Z - debug:  [15824] TFVC Creating Tfvc object with localPath='undefined'
+2018-04-09T23:06:07.467Z - debug:  [15824] Using TFS proxy: 
+2018-04-09T23:06:07.467Z - debug:  [15824] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2018-04-09T23:06:07.467Z - debug:  [15824] TFVC Repository created with repositoryRootFolder='c:\Users\BeauCameron\SPFx Code'
+2018-04-09T23:06:07.468Z - debug:  [15824] TFVC Repository.CheckVersion
+2018-04-09T23:06:07.469Z - debug:  [15824] TFVC: tf add -noprompt -?
+2018-04-09T23:06:07.472Z - debug:  [15824] TFVC: spawned new process (duration: 3ms)
+2018-04-09T23:06:07.475Z - debug:  [15824] TFVC: spawned new process (duration: 3ms)
+2018-04-09T23:06:08.018Z - debug:  [15824] TFVC: add exit code: 0 (duration: 549ms)
+2018-04-09T23:06:08.019Z - debug:  [15824] TFVC Minimum required version: 14.102.0
+2018-04-09T23:06:08.020Z - debug:  [15824] TFVC (TF.exe, TF.cmd) version: 15.129.27509.11
+2018-04-09T23:06:08.020Z - debug:  [15824] TFVC Repository.FindWorkspace with localPath='c:\Users\BeauCameron\SPFx Code'
+2018-04-09T23:06:08.021Z - debug:  [15824] TFVC: tf workfold -noprompt c:\Users\BeauCameron\SPFx Code
+2018-04-09T23:06:08.024Z - debug:  [15824] TFVC: spawned new process (duration: 3ms)
+2018-04-09T23:06:08.376Z - debug:  [15824] TFVC: workfold exit code: 100 (duration: 355ms)
+2018-04-09T23:06:08.377Z - debug:  [15824] TFVC errors (via stderr): There is no working folder mapping for c:\Users\BeauCameron\SPFx Code.
+
+2018-04-09T23:06:08.377Z - error:  [15824] Execution of the TFVC command line failed unexpectedly.
+2018-04-10T00:01:21.460Z - info:   [10472] *** FOLDER: c:\Users\BeauCameron\SPFx Code ***
+2018-04-10T00:01:21.460Z - info:   [10472] VSTSVSCode/1.133.0 (VSCode 1.19.2; Windows_NT 10.0.16299; Node 7.9.0)
+2018-04-10T00:01:21.461Z - debug:  [10472] Looking for an External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-10T00:01:21.461Z - debug:  [10472] No External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-10T00:01:21.464Z - debug:  [10472] Looking for TFVC repository at c:\Users\BeauCameron\SPFx Code
+2018-04-10T00:01:21.464Z - debug:  [10472] TFVC Creating Tfvc object with localPath='undefined'
+2018-04-10T00:01:21.465Z - debug:  [10472] Using TFS proxy: 
+2018-04-10T00:01:21.465Z - debug:  [10472] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2018-04-10T00:01:21.466Z - debug:  [10472] TFVC Repository created with repositoryRootFolder='c:\Users\BeauCameron\SPFx Code'
+2018-04-10T00:01:21.467Z - debug:  [10472] TFVC Repository.CheckVersion
+2018-04-10T00:01:21.467Z - debug:  [10472] TFVC: tf add -noprompt -?
+2018-04-10T00:01:21.470Z - debug:  [10472] TFVC: spawned new process (duration: 3ms)
+2018-04-10T00:01:21.474Z - debug:  [10472] TFVC: spawned new process (duration: 3ms)
+2018-04-10T00:01:21.953Z - debug:  [10472] TFVC: add exit code: 0 (duration: 486ms)
+2018-04-10T00:01:21.954Z - debug:  [10472] TFVC Minimum required version: 14.102.0
+2018-04-10T00:01:21.954Z - debug:  [10472] TFVC (TF.exe, TF.cmd) version: 15.129.27509.11
+2018-04-10T00:01:21.954Z - debug:  [10472] TFVC Repository.FindWorkspace with localPath='c:\Users\BeauCameron\SPFx Code'
+2018-04-10T00:01:21.954Z - debug:  [10472] TFVC: tf workfold -noprompt c:\Users\BeauCameron\SPFx Code
+2018-04-10T00:01:21.957Z - debug:  [10472] TFVC: spawned new process (duration: 2ms)
+2018-04-10T00:01:22.204Z - debug:  [10472] TFVC: workfold exit code: 100 (duration: 250ms)
+2018-04-10T00:01:22.204Z - debug:  [10472] TFVC errors (via stderr): There is no working folder mapping for c:\Users\BeauCameron\SPFx Code.
+
+2018-04-10T00:01:22.205Z - error:  [10472] Execution of the TFVC command line failed unexpectedly.
+2018-04-10T02:05:31.396Z - info:   [20732] *** FOLDER: c:\Users\BeauCameron\SPFx Code ***
+2018-04-10T02:05:31.396Z - info:   [20732] VSTSVSCode/1.133.0 (VSCode 1.19.2; Windows_NT 10.0.16299; Node 7.9.0)
+2018-04-10T02:05:31.396Z - debug:  [20732] Looking for an External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-10T02:05:31.396Z - debug:  [20732] No External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-10T02:05:31.396Z - debug:  [20732] Looking for TFVC repository at c:\Users\BeauCameron\SPFx Code
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC Creating Tfvc object with localPath='undefined'
+2018-04-10T02:05:31.396Z - debug:  [20732] Using TFS proxy: 
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC Repository created with repositoryRootFolder='c:\Users\BeauCameron\SPFx Code'
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC Repository.CheckVersion
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC: tf add -noprompt -?
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC: spawned new process (duration: 0ms)
+2018-04-10T02:05:31.396Z - debug:  [20732] TFVC: spawned new process (duration: 0ms)
+2018-04-10T02:05:31.863Z - debug:  [20732] TFVC: add exit code: 0 (duration: 467ms)
+2018-04-10T02:05:31.864Z - debug:  [20732] TFVC Minimum required version: 14.102.0
+2018-04-10T02:05:31.864Z - debug:  [20732] TFVC (TF.exe, TF.cmd) version: 15.129.27509.11
+2018-04-10T02:05:31.864Z - debug:  [20732] TFVC Repository.FindWorkspace with localPath='c:\Users\BeauCameron\SPFx Code'
+2018-04-10T02:05:31.865Z - debug:  [20732] TFVC: tf workfold -noprompt c:\Users\BeauCameron\SPFx Code
+2018-04-10T02:05:31.867Z - debug:  [20732] TFVC: spawned new process (duration: 2ms)
+2018-04-10T02:05:32.106Z - debug:  [20732] TFVC: workfold exit code: 100 (duration: 241ms)
+2018-04-10T02:05:32.107Z - debug:  [20732] TFVC errors (via stderr): There is no working folder mapping for c:\Users\BeauCameron\SPFx Code.
+
+2018-04-10T02:05:32.107Z - error:  [20732] Execution of the TFVC command line failed unexpectedly.
+2018-04-12T18:20:00.723Z - info:   [08940] *** FOLDER: c:\Users\BeauCameron\SPFx Code ***
+2018-04-12T18:20:00.724Z - info:   [08940] VSTSVSCode/1.133.0 (VSCode 1.19.2; Windows_NT 10.0.16299; Node 7.9.0)
+2018-04-12T18:20:00.724Z - debug:  [08940] Looking for an External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-12T18:20:00.724Z - debug:  [08940] No External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-12T18:20:00.741Z - debug:  [08940] Looking for TFVC repository at c:\Users\BeauCameron\SPFx Code
+2018-04-12T18:20:00.741Z - debug:  [08940] TFVC Creating Tfvc object with localPath='undefined'
+2018-04-12T18:20:00.743Z - debug:  [08940] Using TFS proxy: 
+2018-04-12T18:20:00.743Z - debug:  [08940] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2018-04-12T18:20:00.743Z - debug:  [08940] TFVC Repository created with repositoryRootFolder='c:\Users\BeauCameron\SPFx Code'
+2018-04-12T18:20:00.745Z - debug:  [08940] TFVC Repository.CheckVersion
+2018-04-12T18:20:00.745Z - debug:  [08940] TFVC: tf add -noprompt -?
+2018-04-12T18:20:00.752Z - debug:  [08940] TFVC: spawned new process (duration: 7ms)
+2018-04-12T18:20:00.756Z - debug:  [08940] TFVC: spawned new process (duration: 4ms)
+2018-04-12T18:20:01.439Z - debug:  [08940] TFVC: add exit code: 0 (duration: 694ms)
+2018-04-12T18:20:01.440Z - debug:  [08940] TFVC Minimum required version: 14.102.0
+2018-04-12T18:20:01.440Z - debug:  [08940] TFVC (TF.exe, TF.cmd) version: 15.129.27509.11
+2018-04-12T18:20:01.440Z - debug:  [08940] TFVC Repository.FindWorkspace with localPath='c:\Users\BeauCameron\SPFx Code'
+2018-04-12T18:20:01.441Z - debug:  [08940] TFVC: tf workfold -noprompt c:\Users\BeauCameron\SPFx Code
+2018-04-12T18:20:01.444Z - debug:  [08940] TFVC: spawned new process (duration: 3ms)
+2018-04-12T18:20:01.807Z - debug:  [08940] TFVC: workfold exit code: 100 (duration: 365ms)
+2018-04-12T18:20:01.807Z - debug:  [08940] TFVC errors (via stderr): There is no working folder mapping for c:\Users\BeauCameron\SPFx Code.
+
+2018-04-12T18:20:01.808Z - error:  [08940] Execution of the TFVC command line failed unexpectedly.
+2018-04-15T13:03:37.166Z - info:   [11448] *** FOLDER: c:\Users\BeauCameron\SPFx Code ***
+2018-04-15T13:03:37.166Z - info:   [11448] VSTSVSCode/1.133.0 (VSCode 1.19.2; Windows_NT 10.0.16299; Node 7.9.0)
+2018-04-15T13:03:37.166Z - debug:  [11448] Looking for an External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-15T13:03:37.166Z - debug:  [11448] No External Context at c:\Users\BeauCameron\SPFx Code
+2018-04-15T13:03:37.174Z - debug:  [11448] Looking for TFVC repository at c:\Users\BeauCameron\SPFx Code
+2018-04-15T13:03:37.174Z - debug:  [11448] TFVC Creating Tfvc object with localPath='undefined'
+2018-04-15T13:03:37.174Z - debug:  [11448] Using TFS proxy: 
+2018-04-15T13:03:37.174Z - debug:  [11448] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2018-04-15T13:03:37.174Z - debug:  [11448] TFVC Repository created with repositoryRootFolder='c:\Users\BeauCameron\SPFx Code'
+2018-04-15T13:03:37.178Z - debug:  [11448] TFVC Repository.CheckVersion
+2018-04-15T13:03:37.178Z - debug:  [11448] TFVC: tf add -noprompt -?
+2018-04-15T13:03:37.186Z - debug:  [11448] TFVC: spawned new process (duration: 8ms)
+2018-04-15T13:03:37.190Z - debug:  [11448] TFVC: spawned new process (duration: 4ms)
+2018-04-15T13:03:37.994Z - debug:  [11448] TFVC: add exit code: 0 (duration: 816ms)
+2018-04-15T13:03:37.994Z - debug:  [11448] TFVC Minimum required version: 14.102.0
+2018-04-15T13:03:37.994Z - debug:  [11448] TFVC (TF.exe, TF.cmd) version: 15.129.27509.11
+2018-04-15T13:03:37.995Z - debug:  [11448] TFVC Repository.FindWorkspace with localPath='c:\Users\BeauCameron\SPFx Code'
+2018-04-15T13:03:37.995Z - debug:  [11448] TFVC: tf workfold -noprompt c:\Users\BeauCameron\SPFx Code
+2018-04-15T13:03:37.998Z - debug:  [11448] TFVC: spawned new process (duration: 3ms)
+2018-04-15T13:03:38.806Z - debug:  [11448] TFVC: workfold exit code: 100 (duration: 811ms)
+2018-04-15T13:03:38.807Z - debug:  [11448] TFVC errors (via stderr): There is no working folder mapping for c:\Users\BeauCameron\SPFx Code.
+
+2018-04-15T13:03:38.807Z - error:  [11448] Execution of the TFVC command line failed unexpectedly.

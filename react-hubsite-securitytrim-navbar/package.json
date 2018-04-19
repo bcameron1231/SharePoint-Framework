@@ -11,11 +11,12 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "@microsoft/sp-core-library": "~1.4.0",
     "@microsoft/decorators": "~1.4.0",
-    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "@microsoft/sp-application-base": "~1.4.0",
+    "@microsoft/sp-core-library": "~1.4.0",
     "@microsoft/sp-dialog": "~1.4.0",
-    "@microsoft/sp-application-base": "~1.4.0"
+    "@types/webpack-env": ">=1.12.1 <1.14.0",
+    "sp-pnp-js": "^3.0.7"
   },
   "devDependencies": {
     "@microsoft/sp-build-web": "~1.4.0",

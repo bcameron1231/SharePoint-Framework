@@ -41,7 +41,7 @@ export default class HubNavBar extends React.Component<IHubNavBarProps, IHubNavB
                 isSubMenu:true,    
         });
     }
-
+  
     private _editOnClick(){
         let elm = document.getElementsByClassName('ms-HubNav')[0];
         elm.setAttribute("style","display:flex;!important");
