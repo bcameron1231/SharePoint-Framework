@@ -44,10 +44,17 @@ export default class HubNavBar extends React.Component<IHubNavBarProps, IHubNavB
   
     private _editOnClick(){
         let elm = document.getElementsByClassName('ms-HubNav')[0];
-        elm.setAttribute("style","display:flex;!important");
+        elm.setAttribute("style","display:flex;");
+    }
+    private _hideHubNav(){
+        let elm = document.getElementsByClassName('ms-HubNav')[0];
+        elm.setAttribute("style","display:none;");
     }
     public render() : React.ReactElement<IHubNavBarProps>{
-        
+        debugger;
+       //hide default hub nav
+       this._hideHubNav();
+
        const commandBarItems: IContextualMenuItem[] = [];
        //push default intranet hub link
        commandBarItems.push({ 
@@ -59,12 +66,12 @@ export default class HubNavBar extends React.Component<IHubNavBarProps, IHubNavB
 
         //push existing navigation elements
        this.props.menuItem.Navigation.map((i) => {
-            commandBarItems.push(this.siteMenuItem(i, ContextualMenuItemType.Header));
+            commandBarItems.push(this.siteMenuItem(i, ContextualMenuItemType.Normal));
         });      
         //set sites listing heading
         this.props.menuItem.Title = this.props.navHeading;
         //push security trimmed nav
-        commandBarItems.push(this.siteTrimmedMenuItem(this.props.menuItem, ContextualMenuItemType.Header));
+        commandBarItems.push(this.siteTrimmedMenuItem(this.props.menuItem, ContextualMenuItemType.Normal));
         
         //if user has manage web permissions, show edit button
         const hasPermission:boolean = this.props.context.pageContext.web.permissions.hasPermission(SPPermission.manageWeb);
