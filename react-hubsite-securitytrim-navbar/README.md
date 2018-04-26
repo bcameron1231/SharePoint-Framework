@@ -6,6 +6,10 @@ Application Customizer which uses the SharePoint Search API and the new Hub site
 
 ![The Hub Site Nav Bar](https://www.aerieconsulting.com/hs-fs/hubfs/HubNavSite.png?t=1522675516566&width=2924&height=1349&name=HubNavSite.png)
 
+Blog Posts
+http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation
+https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
+
 ## Solution
 
 Solution|Author(s)
