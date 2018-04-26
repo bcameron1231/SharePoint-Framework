@@ -9,8 +9,8 @@ Application Customizer which uses the SharePoint Search API and the new Hub site
 
 
 ## Associated Blog Posts
-http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation
-https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
+* http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation
+* https://beaucameron.net/2018/04/17/security-trimmed-hub-site-navigation-updates/
 
 ## Solution
 
