@@ -5,6 +5,8 @@
 Application Customizer which uses the SharePoint Search API and the new Hub site REST API to build out security trimmed navigation within hub sites. This application customizer will hide the default hub site navigation.
 
 ![The Hub Site Nav Bar](https://www.aerieconsulting.com/hs-fs/hubfs/HubNavSite.png?t=1522675516566&width=2924&height=1349&name=HubNavSite.png)
+![The Hub Site Nav Bar -Updated ](https://beaucamerondotnet.files.wordpress.com/2018/04/newnav.png?w=636)
+
 
 ## Associated Blog Posts
 http://www.aerieconsulting.com/blog/security-trimmed-hub-navigation
